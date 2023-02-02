@@ -1,0 +1,17 @@
+$ How Java Code Runs
+
+.java -----> Compiler  ------>.class
+  	    (Take entire
+            code cvt.)
+
+.class--->ClassLoader  ----------->Byte Code Verfier
+          (It loads all             (Ensures proper byte gen, 
+	class needed		     Memory require by byte is avaiablble or not, 
+	java.lang,throwable,etc.)    Check tempered code,Illegal things checker)
+
+
+Byte Code----->Interpreter---------------->Output  
+		(Run code line by line
+                with help of JRE)
+
+======>This process of running makes the java code reliable, secure, stable.
