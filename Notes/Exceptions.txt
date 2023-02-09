@@ -1,0 +1,33 @@
+$ Errors : Undesired Results due to ambiguities
+   ----> Due to absence of sys resources
+   ----> Due to synatx issues
+   ----> Due to Logic issue
+$ Exception
+   |--> It refers to those unwanted or 
+unexpected events that occur at mostly at run time but some times also at compile time
+  They can be handled within the program
+   |--->Errors that can be handled
+
+$ Types of Exceptions
+   1. Checked Exception
+   2. Unchecked Exception
+$ Checked Exceptions
+   ---> Those set of exceptions that are checked at the compile time.
+   ---> These exceptions either need to handled or need to clarify by programmer.
+   ---> Eg: FileNotFound, IOException, SQLException, ClassNotFound
+$ Unchecked Exceptions
+   ---> It refers to those set of errors that occurs at the time of execution of the program
+   ---> It only can be handled.
+   ---> Eg: ArithmeticException, ArrayIndexOutOfBoundsException(index more), NullPointerException(try refernce a null) 
+
+$ Hierarchy Classes In Java
+    Object------>Throwable
+                 /       \
+        Exception        Error---->(Out of memory, stack overflow, VM error)
+        / \   \  \
+  IO  SQLEx ClassNF RuntimeException
+                    |-->Arithematic Exception
+	            |-->IndexOutofBound
+                    |-->MisMatchException
+
+    
