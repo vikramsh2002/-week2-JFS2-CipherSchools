@@ -1,0 +1,41 @@
+$ Collections 
+   ----> It refers a framework that can
+ be used in order to easily execute
+DS in a program in efficient manner with
+predefine methods.
+
+$ Collection
+   -----> It is an interface that extends 
+  iterable interface
+
+$ Collection(futher extension)
+   1. List---->Arraylist,LL, vector--->stack,
+   2. Queue--->Priority queue
+   3. Set ----> HashSet, Linked HashSet
+$ ArrayList
+   -----> It is a generic class uses arrays 
+   to implements dyamic array concepts & it implends the
+  list interface
+
+  ------>Provide Random acccess
+
+  ------>Extension is overhead in terms of complexcity.
+
+  ------> It can be hetro or homogenious
+   i.e., losely or tightly coupled
+  
+// hetrogen : Losely Couple 
+   ArrayList a = new ArrayList();
+   a.add("H");
+   a.add(10);
+   a.add(true);
+
+// Homegenious : Tigtly Couple
+   ArrayList<Integer> b = new ArrayList<Integer>()
+   a.add(10);
+   a.add(20);
+   a.add(true); // Error
+---------->Generic Versions or Tighly Couples are faster since no type casting require
+
+ -------> Order of Data is maintain
+ 
