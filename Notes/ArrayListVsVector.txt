@@ -1,0 +1,12 @@
+$ Vector Vs ArrayList
+  -----> ArrayList allow concurrent
+  operations means two guys can do
+  two different operation on arraylist
+
+  ----> Vector doesn't allow concurrent execution by locking the values
+  A----> Add elemets (vector is lock)
+  B---->Try to access ---->vector(Exception Locked)
+
+=========>Reason is that Arraylist is
+non synchronous and Vector is Syn
+means one operation at a time.	
