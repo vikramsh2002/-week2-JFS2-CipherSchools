@@ -1,0 +1,14 @@
+$ Data : Raw facts and figures
+   ----->Store data
+    1. As text/ numbers/symbols
+    2. Store as bytes
+
+$ Store as text
+   ---->It takes more space as compare to 
+  bytes becoz each work takes 2 bytes
+ Eg: "ABC": Size as txt will be 6bytes
+
+$ Store as Bytes
+   ----> Store as bytes then it needs less
+  space relatively
+ Eg: "ABC" : Size will be 3 bytes
